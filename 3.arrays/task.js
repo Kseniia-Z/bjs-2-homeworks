@@ -4,7 +4,6 @@ function compareArrays(arr1, arr2) {
 		arr1.every((element, index) => element === arr2[index])) {
 	return true;
 	}
-	return false;
 }
 
 function getUsersNamesInAgeRange(users, gender) {
